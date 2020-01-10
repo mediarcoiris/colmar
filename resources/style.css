@@ -41,15 +41,60 @@ nav li {
     margin: 0;
     top: 65px;
     display: inline-block;
+    padding: 32px 24px;
 }
 #banner img{
     width: 60%;
-    padding: 32px 24px;
+    height: auto;
+    padding-right: 24px;
     display: inline-block;
+    margin-bottom: 32px;
 }
 #banner .text {
-    color: gray;
+    color: #4E4B4F;
     display: inline-block;
-    width: 30%;
-    margin: auto;
+    position: relative;
+    width: 28%;
+   bottom: 200px;
+    text-align: center;
+    left: 24px;
+}
+.text h1 {
+    font-size: 48px;
+}
+.text h3 {
+    font-size: 30px;
+}
+.bottun {
+    background-color: #4E4B4F;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 50px;
+    font-size: 21px;
+}
+/*info*/
+#info {
+    background-color: white;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    z-index: 1;
+}
+.maininfo {
+    display: inline-block;
+    color: #4E4B4F;
+    width: 60%;
+    border-right: 1px solid gray;
+}
+.maininfo img {
+   padding: 32px 24px;
+   width: 80%
+}
+table{
+    display: flex;
+flex-direction: column;
+}
+.box {
+width: 100%;
+
 }
