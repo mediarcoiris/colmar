@@ -1,0 +1,175 @@
+html {
+font-family: 'Raleway';
+}
+/*header*/
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    z-index: 2;
+}
+.logo {
+    display: inline-block;
+    top: 0;
+    padding-left: 24px;
+    align-items: left;
+}
+.logo img {
+    vertical-align: middle;
+}
+nav{
+    text-align: right;
+    top: 0;
+    float: right;
+    padding-right: 30px;
+}
+nav li {
+    display: inline-block;
+    width: auto;
+    margin: 0 10px;
+}
+   /*banner*/
+#banner {
+    background-color: lightgray;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    top: 65px;
+    display: inline-block;
+    padding: 32px 24px;
+}
+#banner img{
+    width: 60%;
+    height: auto;
+    padding-right: 24px;
+    display: inline-block;
+    margin-bottom: 32px;
+}
+#banner .text {
+    color: #4E4B4F;
+    display: inline-block;
+    position: relative;
+    width: 28%;
+   bottom: 200px;
+    text-align: center;
+    left: 24px;
+}
+h1 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 30px;
+}
+.bottun {
+    background-color: #4E4B4F;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 50px;
+    font-size: 21px;
+}
+/*info*/
+#info {
+    background-color: white;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    z-index: 1;
+}
+.maininfo {
+    display: inline-block;
+    color: #4E4B4F;
+    width: 55%;
+    margin: 22px 32px;
+    box-sizing: border-box;
+}
+.maininfo img {
+   padding: 32px 24px;
+   width: 95%
+}
+.infotext {
+    padding: 32px auto;
+}
+table{
+    display: inline-block;
+flex-direction: column;
+width: 38%;
+border-left: 1px solid lightgray ;
+}
+td img {
+width: 35%;
+height: auto;
+padding: 16px;
+display: inline-block;
+}
+td {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    display: inline-flex;
+    width: 100%;
+}
+td:hover {
+    background-color: lightgray;
+    transition: background-color 300ms linear;
+}
+/*start learning*/
+.learning {
+    background-color: lightgray;
+    width: 100%;
+    position: relative;
+    margin: 32px auto;
+    box-sizing: border-box;
+}
+.learning h1 {
+    padding: 32px auto;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.courses {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.subject {
+background-color: white;
+flex-wrap: row;
+max-width: 350px;
+flex-shrink: 1;
+margin: 32px 16px;
+padding: 16px;
+}
+.subject img {
+    height: auto;
+    width: 350px;
+    padding: 0;
+}
+h5 {
+    font-weight: 400;
+    font-size: 21px;
+    color: gray;
+    padding: 0;
+    line-height: 1;
+    margin: 0;
+}
+.subject p {
+    font-weight: 400;
+    font-size: 19px;
+    color: gray;
+    padding: 0;
+    line-height: 1;
+
+}
+.subject h2 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #4E4B4F;
+    padding: 0;
+    line-height: 1;
+}
